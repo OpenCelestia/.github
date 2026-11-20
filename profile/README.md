@@ -2,7 +2,7 @@
 
 面向安凯微（Anyka）智能视觉 SoC 的应用软件平台。
 
-Celestia 跑在安凯微影像 SoC 的厂商 SDK 之上。固定五层（应用、框架、硬件适配、系统基础、内核与板级），产品差异只来自 `project/<product>/config.mk`。面向摄像机、AI 眼镜、平板、穿戴。嵌入式 C / C++，支持 Linux 与 AOS RTOS。
+Celestia 跑在安凯微（Anyka）智能视觉 SoC 的厂商 SDK 之上。固定五层（应用、框架、硬件适配、系统基础、内核与板级），产品差异只来自 `project/<product>/config.mk`。面向摄像机、AI 眼镜、平板、穿戴。嵌入式 C / C++，支持 Linux 与 AOS RTOS。
 
 本组织是发布源，默认分支 `main`。同一批提交的镜像在 [Gitee](https://gitee.com/OpenCelestia)。
 
@@ -25,9 +25,9 @@ repo sync -c -j4
 
 ## English
 
-Image software stack for Anyka image SoCs.
+Application software platform for Anyka intelligent vision SoCs.
 
-Celestia sits on the Anyka image SoC vendor SDK. Five fixed layers (application, framework, hardware adaptation, system base, kernel and board) are separated by one configuration entry: each product's `config.mk` under `project`. The same tree targets cameras, AI glasses, tablets, and wearables. Embedded C/C++, Linux and AOS RTOS.
+Celestia sits on the Anyka intelligent vision SoC vendor SDK. Five fixed layers (application, framework, hardware adaptation, system base, kernel and board) are separated by one configuration entry: each product's `config.mk` under `project`. The same tree targets cameras, AI glasses, tablets, and wearables. Embedded C/C++, Linux and AOS RTOS.
 
 This organization is the publication source. The default branch is `main`. [Gitee](https://gitee.com/OpenCelestia) mirrors the same commits.
 
