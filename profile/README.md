@@ -1,6 +1,6 @@
 # Celestia
 
-面向安凯微（Anyka）视觉 SoC 的应用软件平台。
+面向安凯微（Anyka）智能视觉 SoC 的应用软件平台。
 
 Celestia 跑在安凯微影像 SoC 的厂商 SDK 之上。固定五层（应用、框架、硬件适配、系统基础、内核与板级），产品差异只来自 `project/<product>/config.mk`。面向摄像机、AI 眼镜、平板、穿戴。嵌入式 C / C++，支持 Linux 与 AOS RTOS。
 
